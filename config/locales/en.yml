@@ -1,0 +1,19 @@
+en:
+  layouts:
+    application:
+      title: "Ruby on Rails Totuariol"
+      language_en: "English"
+      language_vi: "Tiếng Việt"
+  static_pages:
+    about:
+      title: "About us"
+      content: "This is the content of the news"
+    contact:
+      title: "Contact"
+      content: "Contact us on the phone number: 0978 171197"
+    help:
+      title: "Help"
+      content: "This is our help."
+    home:
+      title: "Home"
+      content: "Hello World :D"

@@ -17,3 +17,5 @@ en:
     home:
       title: "Home"
       content: "Hello World :D"
+  helpers:
+    base_title: "Ruby on Rails Totuariol"

@@ -17,3 +17,5 @@ vi:
     home:
       title: "Trang chủ"
       content: "Xin chào thế giới :D"
+  helpers:
+    base_title: "Hướng dẫn Ruby on Rails"

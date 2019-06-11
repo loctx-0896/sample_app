@@ -4,6 +4,15 @@ vi:
       title: "Hướng dẫn Ruby on Rails"
       language_en: "English"
       language_vi: "Tiếng Việt"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      small_html: "<a href='https://www.railstutorial.org/'> Hướng dẫn Ruby on Rails </a> bởi <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
+      about: "Chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
   static_pages:
     about:
       title: "Về chúng tôi"
@@ -16,6 +25,13 @@ vi:
       content: "Đây là sự trợ giúp của chúng tôi."
     home:
       title: "Trang chủ"
-      content: "Xin chào thế giới :D"
+      welcome: "Chào mừng đến với Sample App"
+      content_html: "Đây là trang chủ <a href='https://www.railstutorial.org/' >Hướng dẫn Ruby on Rails </a> ứng dụng mẫu."
+      button: "Đăng kí ngay!"
   helpers:
     base_title: "Hướng dẫn Ruby on Rails"
+  users:
+    new:
+      title: "Đăng kí"
+      signup: "Đăng kí"
+      content: "Đây là trang dành cho người đăng ký mới!"

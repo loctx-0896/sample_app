@@ -1,0 +1,19 @@
+vi:
+  layouts:
+    application:
+      title: "Hướng dẫn Ruby on Rails"
+      language_en: "English"
+      language_vi: "Tiếng Việt"
+  static_pages:
+    about:
+      title: "Về chúng tôi"
+      content: "Đây là nội dung của tin tức"
+    contact:
+      title: "Liên hệ"
+      content: "Liên hệ với chúng tôi qua số điện thoại: 0978 171197"
+    help:
+      title: "Giúp đỡ"
+      content: "Đây là sự trợ giúp của chúng tôi."
+    home:
+      title: "Trang chủ"
+      content: "Xin chào thế giới :D"

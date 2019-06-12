@@ -4,6 +4,15 @@ en:
       title: "Ruby on Rails Totuariol"
       language_en: "English"
       language_vi: "Tiếng Việt"
+    header:
+      home: "Hone"
+      help: "Help"
+      login: "Log in"
+    footer:
+      small_html: "The <a href='https://www.railstutorial.org/'>Ruby on Rails Totuariol</a> by <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
+      about: "About"
+      contact: "Contact"
+      news: "News"
   static_pages:
     about:
       title: "About us"
@@ -16,6 +25,13 @@ en:
       content: "This is our help."
     home:
       title: "Home"
-      content: "Hello World :D"
+      welcome: "Welcome to the Sample App"
+      content_html: "This is the home page for the <a href='https://www.railstutorial.org' /> Ruby on Rails Tutorial</a> sample application."
+      button: "Sign up now!"
   helpers:
-    base_title: "Ruby on Rails Totuariol"
+    base_title: "Ruby on Rails Tutorial"
+  users:
+    new:
+      title: "SignUp"
+      signup: "Sign Up"
+      content: "This will be a signup page for new users!"

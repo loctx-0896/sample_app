@@ -34,4 +34,16 @@ vi:
     new:
       title: "Đăng kí"
       signup: "Đăng kí"
-      content: "Đây là trang dành cho người đăng ký mới!"
+      name: "Tên đăng nhập"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+  controllers:
+    users:
+      welcome: "Chào mừng bạn đến với Sample App"
+      user_not_exist: "Người dùng không tồn tại!"
+  shared:
+    error_messages:
+      form_error:
+        one: "Biểu mẫu nhập vào có 1 lỗi"
+        other: "Biểu mẫu nhập vào có %{count} lỗi"

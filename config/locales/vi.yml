@@ -8,6 +8,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       small_html: "<a href='https://www.railstutorial.org/'> Hướng dẫn Ruby on Rails </a> bởi <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
       about: "Chúng tôi"
@@ -42,8 +47,19 @@ vi:
     users:
       welcome: "Chào mừng bạn đến với Sample App"
       user_not_exist: "Người dùng không tồn tại!"
+    sessions:
+      invalid: "Tài khoản hoặc mật khẩu không đúng!"
+      login_success: "Chúc mừng bạn đã đăng nhập thành công!"
   shared:
     error_messages:
       form_error:
         one: "Biểu mẫu nhập vào có 1 lỗi"
         other: "Biểu mẫu nhập vào có %{count} lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      notuser: "Chưa có tài khoản?"
+      signupnow: "Đăng kí ngay"
+      rememberme: "Nhớ tôi"

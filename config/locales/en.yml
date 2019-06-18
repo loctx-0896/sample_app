@@ -8,6 +8,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       small_html: "The <a href='https://www.railstutorial.org/'>Ruby on Rails Totuariol</a> by <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
       about: "About"
@@ -42,8 +47,19 @@ en:
     users:
       welcome: "Welcome to the Sample App"
       user_not_exist: "User does not exist!"
+    sessions:
+      invalid: "Account or password is incorrect!"
+      login_success: "Congratulations on successful login!"
   shared:
     error_messages:
       form_error:
         one: "The form contains 1 error"
         other: "The form contains %{count} errors"
+  sessions:
+    new:
+      login: "Login"
+      email: "Email"
+      password: "Password"
+      notuser: "New user?"
+      signupnow: "Signup now"
+      rememberme: "Remember me"

@@ -43,10 +43,31 @@ en:
       email: "Email"
       password: "Password"
       password_confirmation: "Password Confirm"
+    edit:
+      title: "Update the profile"
+      update_profile: "Update the profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_comfirmation: "Password Confirmation"
+      save_changes: "Save changes"
+      change: "Change"
+    index:
+      title: "All users"
+    user:
+      you_sure: "Are you sure?"
+      delete: "Delete"
   controllers:
     users:
       welcome: "Welcome to the Sample App"
       user_not_exist: "User does not exist!"
+      success: "Update profile sucessful"
+      not_log_in: "Please log in!"
+      can_not: "No right to edit!"
+      destroy_success: "Delete successful!"
+      destroy_fail: "Delete fail!"
+      not_delete: "You do not have permission to delete!!!"
+      findfail: "User not exist with id  %{id}"
     sessions:
       invalid: "Account or password is incorrect!"
       login_success: "Congratulations on successful login!"

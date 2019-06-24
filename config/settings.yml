@@ -9,3 +9,6 @@ users:
   password:
     minimum: 6
 remember: "1"
+gravatar_for:
+  size: 50
+perpage: 9

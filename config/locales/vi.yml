@@ -43,10 +43,31 @@ vi:
       email: "Thư điện tử"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
+    edit:
+      title: "Cập nhật hồ sơ"
+      update_profile: "Cập nhật hồ sơ"
+      name: "Tên"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      password_comfirmation: "Xác nhận mật khẩu"
+      save_changes: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      you_sure: "Bạn chắc chắn?"
+      delete: "Xóa"
   controllers:
     users:
       welcome: "Chào mừng bạn đến với Sample App"
       user_not_exist: "Người dùng không tồn tại!"
+      success: "Cập nhật thành công"
+      not_log_in: "Vui lòng đăng nhập!"
+      can_not: "Không có quyền sửa!"
+      destroy_success: "Xóa thành công!"
+      destroy_fail: "Xóa thất bại"
+      not_delete: "Bạn không có quyền xóa!!!"
+      findfail: "Người dùng không tồn tại với id %{id}"
     sessions:
       invalid: "Tài khoản hoặc mật khẩu không đúng!"
       login_success: "Chúc mừng bạn đã đăng nhập thành công!"

@@ -6,10 +6,10 @@ class SessionsController < ApplicationController
     if user&.authenticate(params[:session][:password])
       log_in user
       check_rememberme user
-      flash[:danger] = I18n.t "controllers.sessions.login_success"
-      redirect_to user
+      flash[:danger] = t "controllers.sessions.login_success"
+      redirect_back_or user
     else
-      flash.now[:danger] = I18n.t "controllers.sessions.invalid"
+      flash.now[:danger] = t "controllers.sessions.invalid"
       render :new
     end
   end

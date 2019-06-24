@@ -6,7 +6,7 @@ User.create!(name: "LocDepTrai",
              activated: true,
              activated_at: Time.zone.now)
 
-99.times do |n|
+30.times do |n|
   name  = Faker::Name.name
   email = "loc-#{n+1}@gmail.com"
   password = "password"

@@ -12,3 +12,4 @@ remember: "1"
 gravatar_for:
   size: 50
 perpage: 9
+time_exists: 1

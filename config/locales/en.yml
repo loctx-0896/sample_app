@@ -60,7 +60,7 @@ en:
   controllers:
     users:
       welcome: "Welcome to the Sample App"
-      user_not_exist: "User does not exist!"
+      user_not_active: "User has not been avtivated!"
       success: "Update profile sucessful"
       not_log_in: "Please log in!"
       can_not: "No right to edit!"
@@ -68,9 +68,17 @@ en:
       destroy_fail: "Delete fail!"
       not_delete: "You do not have permission to delete!!!"
       findfail: "User not exist with id  %{id}"
+      check_email: "Please check your email to activate your account."
     sessions:
       invalid: "Account or password is incorrect!"
       login_success: "Congratulations on successful login!"
+      account_active: "Account not activated. Check your email for the activation link."
+    account:
+      success: "Account activated success!"
+      invalid_link: "Invalid link"
+    mailer:
+      acc: "Account activation"
+      hi: "Hi"
   shared:
     error_messages:
       form_error:
@@ -84,3 +92,8 @@ en:
       notuser: "New user?"
       signupnow: "Signup now"
       rememberme: "Remember me"
+  user_mailer:
+    account_activation:
+      hello: "Hello,"
+      html: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Active"

@@ -60,7 +60,7 @@ vi:
   controllers:
     users:
       welcome: "Chào mừng bạn đến với Sample App"
-      user_not_exist: "Người dùng không tồn tại!"
+      user_not_active: "Người chưa được kích hoạt"
       success: "Cập nhật thành công"
       not_log_in: "Vui lòng đăng nhập!"
       can_not: "Không có quyền sửa!"
@@ -68,9 +68,17 @@ vi:
       destroy_fail: "Xóa thất bại"
       not_delete: "Bạn không có quyền xóa!!!"
       findfail: "Người dùng không tồn tại với id %{id}"
+      check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản."
     sessions:
       invalid: "Tài khoản hoặc mật khẩu không đúng!"
       login_success: "Chúc mừng bạn đã đăng nhập thành công!"
+      account_active: "Tài khoản chưa kích hoạt. Kiểm tra thư được gửi trong email."
+    account:
+      success: "Kích hoạt tài khoản thành công!"
+      invalid_link: "Link kích hoạt không hợp lệ"
+    mailer:
+      acc: "Tài khoản kích hoạt"
+      hi: "Chào"
   shared:
     error_messages:
       form_error:
@@ -84,3 +92,8 @@ vi:
       notuser: "Chưa có tài khoản?"
       signupnow: "Đăng kí ngay"
       rememberme: "Nhớ tôi"
+  user_mailer:
+    account_activation:
+      hello: "Chào,"
+      html: "Chào mừng đến với Sample App! Nhấn vào đường dẫn để kích hoạt taì khoản:"
+      active: "Kích hoạt"

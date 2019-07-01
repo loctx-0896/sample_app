@@ -6,7 +6,7 @@ User.create!(name: "LocDepTrai",
              activated: true,
              activated_at: Time.zone.now)
 
-30.times do |n|
+99.times do |n|
   name  = Faker::Name.name
   email = "loc#{n+1}@gmail.com"
   password = "123123"
@@ -23,3 +23,11 @@ users = User.order(:created_at).take(6)
   content = Faker::Lorem.sentence(5)
   users.each {|user| user.microposts.create!(content: content)}
 end
+
+# Following relationships
+users = User.all
+user  = users.first
+following = users[2..50]
+followers = users[3..40]
+following.each {|followed| user.follow(followed)}
+followers.each {|follower| follower.follow(user)}

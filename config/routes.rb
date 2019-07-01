@@ -15,9 +15,15 @@ Rails.application.routes.draw do
     get "password_resets/new"
     get "password_resets/edit"
     get "sessions/new"
+    resources :users do
+      member do
+        get :following, :followers
+      end
+    end
     resources :users
     resources :account_activations, only: :edit
     resources :password_resets, except: [:destroy, :index, :show]
     resources :microposts, only: [:create, :destroy]
+    resources :relationships, only: [:create, :destroy]
   end
 end

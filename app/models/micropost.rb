@@ -2,10 +2,10 @@ class Micropost < ApplicationRecord
   belongs_to :user
   mount_uploader :picture, PictureUploader
   scope :news_feed, ->{order created_at: :desc}
-  scope :feed_by_id, ->(user_ids){where user_id: user_ids}
+  scope :feed_by_id, ->(ids){where user_id: ids}
   validates :user_id, presence: true
   validates :content, presence: true,
-    length: {maximum: Settings.micropost.content.maximum}s
+    length: {maximum: Settings.micropost.content.maximum}
   validate :picture_size
 
   private

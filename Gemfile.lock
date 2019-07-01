@@ -115,13 +115,13 @@ GEM
       dry-initializer (~> 3.0)
       dry-logic (~> 1.0)
       dry-types (~> 1.0)
-    dry-types (1.0.1)
+    dry-types (1.1.0)
       concurrent-ruby (~> 1.0)
       dry-container (~> 0.3)
       dry-core (~> 0.4, >= 0.4.4)
       dry-equalizer (~> 0.2, >= 0.2.2)
       dry-inflector (~> 0.1, >= 0.1.2)
-      dry-logic (~> 1.0)
+      dry-logic (~> 1.0, >= 1.0.2)
     equatable (0.6.1)
     erubi (1.8.0)
     execjs (2.7.0)
@@ -176,6 +176,7 @@ GEM
     pastel (0.7.3)
       equatable (~> 0.6)
       tty-color (~> 0.5)
+    pg (1.1.4)
     powerpack (0.1.2)
     public_suffix (3.1.1)
     puma (3.12.1)
@@ -312,8 +313,9 @@ DEPENDENCIES
   jquery-rails
   listen (>= 3.0.5, < 3.2)
   mini_magick (= 4.7.0)
+  pg
   puma (~> 3.11)
-  rails (~> 5.2.3)
+  rails
   rails-controller-testing
   rails-i18n
   rubocop (~> 0.54.0)
@@ -329,7 +331,7 @@ DEPENDENCIES
   will_paginate
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 2.6.3p62
 
 BUNDLED WITH
-   1.16.1
+   1.17.2

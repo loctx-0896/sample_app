@@ -91,12 +91,8 @@ en:
       add_success: "Micropost created successful!!"
       delete_success: "Micropost deleted successful!"
       delete_fail: "Micropost deleted fail!!"
-  microposts:
-    micropost:
-      post: "Post "
-      ago: " ago."
-      delete: "Delete"
-      sure: "Are you sure?"
+    relationship:
+      findfail: "Relationship not exist"
   shared:
     error_messages:
       form_error:
@@ -140,3 +136,8 @@ en:
   microposts:
     upload:
       max_size: "Size image more than 5 MB"
+    micropost:
+      post: "Post "
+      ago: " ago."
+      delete: "Delete"
+      sure: "Are you sure?"

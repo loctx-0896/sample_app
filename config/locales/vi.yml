@@ -91,12 +91,8 @@ vi:
       add_success: "Micropost được tạo thành công!!"
       delete_success: "Xóa bài viết thành công!"
       delete_fail: "Xóa bài viết thất bại!"
-  microposts:
-    micropost:
-      post: "Đăng "
-      ago: " trước."
-      delete: "Xóa"
-      sure: "Bạn có chắc chắn?"
+    relationship:
+      findfail: "Relationship không tồn tại"
   shared:
     error_messages:
       form_error:
@@ -140,3 +136,8 @@ vi:
   microposts:
     upload:
       max_size: "Kích thước hình ảnh hơn 5 MB"
+    micropost:
+      post: "Đăng "
+      ago: " trước."
+      delete: "Xóa"
+      sure: "Bạn có chắc chắn?"

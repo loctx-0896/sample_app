@@ -3,6 +3,7 @@ class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
+  has_many :microposts, dependent: :destroy
   has_secure_password
   scope :activated, ->{where activated: true}
   validates :name, presence: true,
@@ -81,5 +82,9 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.time_exists.hours.ago
+  end
+
+  def feed
+    Micropost.feed_by_id(id)
   end
 end

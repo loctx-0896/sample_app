@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
     if user.activated?
       log_in user
       check_rememberme user
-      flash[:danger] = t "controllers.sessions.login_success"
+      flash[:success] = t "controllers.sessions.login_success"
       redirect_back_or user
     else
       flash[:warning] = t "controllers.sessions.account_active"

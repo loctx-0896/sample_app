@@ -11,8 +11,12 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap
+//= require bootstrap.min
 //= require rails-ujs
+//= require i18n
+//= require i18n.js
+//= require i18n/translations
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require micropost_form.js

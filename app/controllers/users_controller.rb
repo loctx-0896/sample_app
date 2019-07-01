@@ -14,7 +14,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user&.activated?
+    @microposts = @user.microposts.news_feed.paginate(page: params[:page],
+      per_page: 6)
+    return if @user.activated?
     flash[:danger] = t "controllers.users.user_not_active"
     redirect_to root_path
   end
@@ -68,13 +70,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email, :password,
       :password_confirmation)
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "controllers.users.not_log_in"
-    redirect_to login_url
   end
 
   def correct_user

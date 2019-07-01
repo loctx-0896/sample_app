@@ -78,7 +78,14 @@ vi:
       invalid_link: "Link kích hoạt không hợp lệ"
     mailer:
       acc: "Tài khoản kích hoạt"
-      hi: "Chào"
+      reset: "Đặt lại mật khẩu"
+    password_resets:
+      checkmail: "Thư được gửi cùng hướng dẫn đặt lại mật khẩu"
+      email_notfound: "Email không tìm thấy"
+      success: "Mật khẩu đã được đặt lại"
+      expired: "Yêu cầu đặt lại mật khẩu hết hạn"
+      email_nil: "Email rỗng"
+      empty_pass: "Mật khẩu trống"
   shared:
     error_messages:
       form_error:
@@ -92,8 +99,24 @@ vi:
       notuser: "Chưa có tài khoản?"
       signupnow: "Đăng kí ngay"
       rememberme: "Nhớ tôi"
+      forgot_password: "Quên mật khẩu"
   user_mailer:
     account_activation:
       hello: "Chào,"
       html: "Chào mừng đến với Sample App! Nhấn vào đường dẫn để kích hoạt taì khoản:"
       active: "Kích hoạt"
+      password_reset: "Đặt lại mật khẩu"
+      prompt: "Để đặt lại mật khẩu, vui lòng truy cập liên kết bên dưới:"
+      expire: "Liên kết này sẽ hết hạn sau 2 giờ."
+      no_request: "Nếu bạn không yêu cầu đổi lại mật khẩu, vui lòng bỏ qua tin nhắn này
+                   và mật khẩu của bạn sẽ được giữ nguyên."
+  password_resets:
+    new:
+      forgot: "Quên mật khẩu"
+      email: "Thư điện tử"
+      submit: "Gửi"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      update_password: "Cập nhật"

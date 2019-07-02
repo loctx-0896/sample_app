@@ -11,5 +11,10 @@ users:
 remember: "1"
 gravatar_for:
   size: 50
-perpage: 9
+perpage: 7
 time_exists: 1
+micropost:
+  content:
+    maximum: 140
+max_size_picture: 5
+accept_picture: "image/jpeg,image/gif,image/png"

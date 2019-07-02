@@ -33,6 +33,7 @@ vi:
       welcome: "Chào mừng đến với Sample App"
       content_html: "Đây là trang chủ <a href='https://www.railstutorial.org/' >Hướng dẫn Ruby on Rails </a> ứng dụng mẫu."
       button: "Đăng kí ngay!"
+      micropost_feed: "Tất cả bài viết"
   helpers:
     base_title: "Hướng dẫn Ruby on Rails"
   users:
@@ -86,11 +87,27 @@ vi:
       expired: "Yêu cầu đặt lại mật khẩu hết hạn"
       email_nil: "Email rỗng"
       empty_pass: "Mật khẩu trống"
+    microposts:
+      add_success: "Micropost được tạo thành công!!"
+      delete_success: "Xóa bài viết thành công!"
+      delete_fail: "Xóa bài viết thất bại!"
+  microposts:
+    micropost:
+      post: "Đăng "
+      ago: " trước."
+      delete: "Xóa"
+      sure: "Bạn có chắc chắn?"
   shared:
     error_messages:
       form_error:
         one: "Biểu mẫu nhập vào có 1 lỗi"
         other: "Biểu mẫu nhập vào có %{count} lỗi"
+    micropost_form:
+      compose_micropost: "Nhâp vào micropost mới..."
+      post: "Đăng"
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      micropost: "Bài viết"
   sessions:
     new:
       login: "Đăng nhập"
@@ -120,3 +137,6 @@ vi:
       password: "Mật khẩu"
       password_confirmation: "Nhập lại mật khẩu"
       update_password: "Cập nhật"
+  microposts:
+    upload:
+      max_size: "Kích thước hình ảnh hơn 5 MB"

@@ -33,6 +33,7 @@ en:
       welcome: "Welcome to the Sample App"
       content_html: "This is the home page for the <a href='https://www.railstutorial.org' /> Ruby on Rails Tutorial</a> sample application."
       button: "Sign up now!"
+      micropost_feed: "Micropost Feed"
   helpers:
     base_title: "Ruby on Rails Tutorial"
   users:
@@ -86,11 +87,27 @@ en:
       expired: "Password reset has expired"
       email_nil: "Email null"
       empty_pass: "Empty Password"
+    microposts:
+      add_success: "Micropost created successful!!"
+      delete_success: "Micropost deleted successful!"
+      delete_fail: "Micropost deleted fail!!"
+  microposts:
+    micropost:
+      post: "Post "
+      ago: " ago."
+      delete: "Delete"
+      sure: "Are you sure?"
   shared:
     error_messages:
       form_error:
         one: "The form contains 1 error"
         other: "The form contains %{count} errors"
+    micropost_form:
+      compose_micropost: "Compose new micropost.."
+      post: "Post"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "Micropost"
   sessions:
     new:
       login: "Login"
@@ -120,3 +137,6 @@ en:
       password: "Password"
       password_confirmation: "Confirm Password"
       update_password: "Update"
+  microposts:
+    upload:
+      max_size: "Size image more than 5 MB"

@@ -18,3 +18,5 @@ micropost:
     maximum: 140
 max_size_picture: 5
 accept_picture: "image/jpeg,image/gif,image/png"
+gravatar_follow:
+  size: 30

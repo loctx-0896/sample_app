@@ -5,7 +5,6 @@ class ApplicationController < ActionController::Base
 
   private
   def set_locale
-    # bn
     I18n.locale = params[:locale] || I18n.default_locale
   end
 
@@ -18,6 +17,5 @@ class ApplicationController < ActionController::Base
     store_location
     flash[:danger] = t "controllers.users.not_log_in"
     redirect_to login_url
-    # sksdf
   end
 end

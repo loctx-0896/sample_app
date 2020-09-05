@@ -1,2 +1,3 @@
 module AccountActivationsHelper
+  # fsfs
 end
